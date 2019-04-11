@@ -2,7 +2,6 @@
 #include <limits>
 #include <climits>
 #include <cstdlib>
-
 namespace sherifi
 {
 	class Data_convertion
@@ -22,7 +21,6 @@ namespace sherifi
 		{
 			std::cout << arg_1 << std::endl;
 		}
-
 	};
 }
 int main()
@@ -35,7 +33,5 @@ int main()
 	sherifi::Data_convertion data_3;
 	// std::cout << data_3.var_1->x << std::endl;
 	std::cout << data_3.func(4) << std::endl;
-
 	return 0;
 }
-
